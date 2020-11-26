@@ -20,8 +20,8 @@ describe(`NotePageNav component`, () => {
       }
     }
     const context = {
-      notes: [{ id: 'test-note-id', folderId: 'test-folder-id' }],
-      folders: [{ id: 'test-folder-id', name: 'Important' }]
+      notes: [{ id: 'test-note-id', folder_id: 'test-folder-id' }],
+      folders: [{ id: 'test-folder-id', folder_name: 'Important' }]
     }
 
     const h3 = shallow(<NotePageNav {...props} />, context)
