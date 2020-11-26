@@ -19,9 +19,6 @@ render() {
   const {folderId} = this.props.match.params
   const { notes=[]} = this.context
   const notesForFolder = getNotesForFolder(notes, folderId)
-  console.log('folderID', folderId);
-  console.log('array of notes',notes);
-  console.log('notesforfolder', notesForFolder);
     return (
       <section className='NoteListMain'>
         <ul>

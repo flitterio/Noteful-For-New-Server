@@ -96,7 +96,6 @@ class App extends Component {
             folders: this.state.folders,
             deleteNote: this.handleDeleteNote
         };
-        console.log(value);
         return (
             <ApiConext.Provider value={value}>
             <div className="App">
